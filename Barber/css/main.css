@@ -1,0 +1,62 @@
+/* LINE TO DIVIDE HEADER AND MAIN CONTENT */
+
+#line {
+    width: 100%;
+    border-bottom: 4px solid var(--line-color);
+}
+
+/* TEAM CONTENT - LEFT SIDE */
+
+.team-select {
+    background-image: var(--gradient-color);
+    max-width: 100%;
+    padding: 35px;
+    margin: 10px 40px;
+    border-radius: 75px;
+    text-align: center;
+}
+
+.team {
+    max-width: inherit;
+    background-color: var(--block-content);
+    padding: 200px 40px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.team-caption {
+    background-color: var(--button-team);
+    margin: auto;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* MENU CONTENT - RIGHT SIDE */
+
+.agende-menu {
+    background-color: var(--block-content);
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.button-select {
+    background-color: var(--header-bt);
+    width: 25%;   
+}
+
+.agende-option {
+    display: flex;
+    background-image: var(--gradient-color);
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 75px;
+    text-align: center;
+}
+
+.options {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 10px;
+}
